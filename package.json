@@ -8,8 +8,10 @@
     "lint": "eslint . --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@date-io/luxon": "^3.0.0",
     "@mdi/font": "7.0.96",
     "core-js": "^3.34.0",
+    "luxon": "^3.4.4",
     "roboto-fontface": "*",
     "vue": "^3.3.0",
     "vuetify": "^3.0.0"
