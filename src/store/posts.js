@@ -5,9 +5,7 @@ export const usePostsStore = defineStore({
         page: 1,
         limit: 10,
         total: 100,
-        category: "dev",
-        posts: [],
-        pagesArr: [1]
+        posts: []
     }),
     actions: {
         nextPage() {
@@ -26,7 +24,7 @@ export const usePostsStore = defineStore({
 
         },
         async fetchPosts() {
-            const url = `http://38.207.160.50:13578/api/blog`
+            const url = `http://localhost:13578/api/blog`
             this.$patch({ posts: await (await fetch(url)).json() })
         },
     },
