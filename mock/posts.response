@@ -1,0 +1,115 @@
+{
+    "Total": 54,
+    "Posts": [
+        {
+            "ID": 59,
+            "CreatedAt": "2024-02-08T09:43:14Z",
+            "UpdatedAt": "2024-02-08T09:43:14Z",
+            "DeletedAt": null,
+            "Content": "linux/macos代理：export http_proxy=http://127.0.0.1:7890;export https_proxy=http://127.0.0.1:7890",
+            "Tags": [
+                ""
+            ],
+            "Category": "dev"
+        },
+        {
+            "ID": 58,
+            "CreatedAt": "2024-02-08T09:42:42Z",
+            "UpdatedAt": "2024-02-08T09:42:42Z",
+            "DeletedAt": null,
+            "Content": "win命令行代理cmd set http_proxy=http://127.0.0.1:7890 & set https_proxy=http://127.0.0.1:7890 PowerShell $env:http_proxy=\"http://127.0.0.1:7890\" ;$env:https_proxy=\"http://127.0.0.1:7890\"",
+            "Tags": [
+                ""
+            ],
+            "Category": "dev"
+        },
+        {
+            "ID": 57,
+            "CreatedAt": "2024-02-06T07:04:04Z",
+            "UpdatedAt": "2024-02-06T07:04:04Z",
+            "DeletedAt": null,
+            "Content": "linux/macos代理：export http_proxy=http://127.0.0.1:7890 export https_proxy=http://127.0.0.1:7890",
+            "Tags": [
+                ""
+            ],
+            "Category": "dev"
+        },
+        {
+            "ID": 56,
+            "CreatedAt": "2024-02-02T15:33:06Z",
+            "UpdatedAt": "2024-02-02T15:33:06Z",
+            "DeletedAt": null,
+            "Content": "\\n*\\d+\\n\\d+.* srt转txt正则",
+            "Tags": [
+                ""
+            ],
+            "Category": "dev"
+        },
+        {
+            "ID": 55,
+            "CreatedAt": "2024-01-29T10:00:54Z",
+            "UpdatedAt": "2024-01-29T10:00:54Z",
+            "DeletedAt": null,
+            "Content": "if you write things that mass community can't understand, then it's just self entertaining.",
+            "Tags": [
+                ""
+            ],
+            "Category": "other"
+        },
+        {
+            "ID": 54,
+            "CreatedAt": "2024-01-26T03:28:14Z",
+            "UpdatedAt": "2024-01-26T03:28:14Z",
+            "DeletedAt": null,
+            "Content": "win命令行代理cmd set http_proxy=http://127.0.0.1:7890 set https_proxy=http://127.0.0.1:7890 PowerShell $env:http_proxy=\"http://127.0.0.1:7890\" $env:https_proxy=\"http://127.0.0.1:7890\"",
+            "Tags": [
+                ""
+            ],
+            "Category": "dev"
+        },
+        {
+            "ID": 53,
+            "CreatedAt": "2024-01-24T12:33:31Z",
+            "UpdatedAt": "2024-01-24T12:33:31Z",
+            "DeletedAt": null,
+            "Content": "https://ghproxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u\nhttps://cdn.jsdelivr.net/gh/YueChan/live@main/IPTV.m3u",
+            "Tags": [
+                ""
+            ],
+            "Category": "dev"
+        },
+        {
+            "ID": 51,
+            "CreatedAt": "2024-01-24T08:05:44Z",
+            "UpdatedAt": "2024-01-24T08:05:44Z",
+            "DeletedAt": null,
+            "Content": "git config user.xxx \"yyyy\" 设置单个目录的user信息",
+            "Tags": [
+                ""
+            ],
+            "Category": "dev"
+        },
+        {
+            "ID": 50,
+            "CreatedAt": "2024-01-22T10:09:19Z",
+            "UpdatedAt": "2024-01-22T10:09:19Z",
+            "DeletedAt": null,
+            "Content": "maven多模块的话应该只是为了防止依赖冲突，一个服务的没必要加了，反正都是一个pom里面。https://bbs.csdn.net/topics/394506751",
+            "Tags": [
+                ""
+            ],
+            "Category": "dev"
+        },
+        {
+            "ID": 49,
+            "CreatedAt": "2024-01-19T04:31:55Z",
+            "UpdatedAt": "2024-01-19T04:31:55Z",
+            "DeletedAt": null,
+            "Content": "如何阅读源码：拷贝出来，写文档，写日志。",
+            "Tags": [
+                ""
+            ],
+            "Category": "dev"
+        }
+    ]
+}
