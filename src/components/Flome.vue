@@ -23,18 +23,17 @@ async function get() {
 }
 
 async function post() {
-    if (content.value === "") {
+    if (appData.newPost.content === "") {
         alert("Empty content")
         return
     }
     let data = {
-        Content: content.value,
-        Tags: tags.value,
-        Category: category.value
+        Content: appData.newPost.content,
+        Category: appData.newPost.category
     }
     console.log(JSON.stringify(data))
     try {
-        const response = await fetch(API_URL, {
+        const response = await fetch(API_URL + "/post", {
             method: "POST", // or 'PUT'
             headers: {
                 "Content-Type": "application/json",
@@ -45,9 +44,12 @@ async function post() {
 
         const result = await response.json();
         alert("Success:", result);
+        appData.newPost.content = "";
+        appData.newPost.category = "";
     } catch (error) {
         alert("Error:", error);
     }
+    get()
 }
 
 function formatDate(v) {
@@ -71,10 +73,7 @@ async function changeCategory(category) {
             <v-responsive class="align-center text-center fill-height">
                 <v-sheet>
                     <v-tabs>
-                        <v-tab :key="0" :value="'all'" @click="changeCategory('all')">
-                            All
-                        </v-tab>
-                        <v-tab v-for="category,n in appData.categories" :key="n" :value="category" @click="changeCategory(category)">
+                        <v-tab v-for="category,n in appData.categoriesWithAll" :key="n" :value="category" @click="changeCategory(category)">
                             {{ category }}
                         </v-tab>
                     </v-tabs>

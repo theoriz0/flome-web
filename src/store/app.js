@@ -10,6 +10,9 @@ export const useAppStore = defineStore('app', {
       category: "",
     }
   }),
+  getters: {
+    categoriesWithAll: (state) => ["all",...state.categories],
+  },
   actions: {
     async fetchCategories() {
         const url = `http://localhost:13578/api/categories`
